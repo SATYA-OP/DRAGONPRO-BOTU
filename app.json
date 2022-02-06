@@ -12,7 +12,7 @@
   ],
   "repository": "https://github.com/LEGEND-LX/DRAGONPRO-BOT/",
   "website": "https://github.com/LEGEND-LX/DRAGONPRO-BOT/",
-  "success_url": "https://t.me/COMING_SOON_PROBOT",
+  "success_url": "https://t.me/DragonPro_Userbot",
   "env": {
     "ENV": {
       "description": "Set this to ANYTHING will enable heroku.(Don't Need To Change It)",
@@ -124,7 +124,7 @@
     },
     "HANDLER": {
       "description": "U can Change Ur command Handler By Default it is (.)",
-      "value": "",
+      "value": ".",
       "required": false 
       },
     "API_HASH": {
@@ -135,7 +135,7 @@
       "description": "Paste Group Id Which U Get From @missrose_bot",
       "value": ""
     }, 
-    "DRAGONPRO_STRING": {
+    "DRAGON_STRING": {
       "description": "Get this value by running https://replit.com/LEGEND-LX/PYTHONBOT-4#main.py ",
       "value": ""
     },
@@ -169,12 +169,12 @@
     },
     "HELP_EMOJI1": {
       "description": "Set The emojies You Want to Add In Help Command!!",
-      "value": "",
+      "value": "💥🌪",
       "required": false
     },
     "HELP_EMOJI2": {
       "description": "Set The emojies You Want to Add In Help Command!!",
-      "value": "",
+      "value": "🌪💥",
       "required": false
     },
     "PM_DATA": {

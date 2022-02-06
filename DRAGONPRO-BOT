@@ -16,7 +16,7 @@ _get_repolink () {
         then
             echo "${LEGEND-LX_REPO}/archive/${LEGEND-LX_REPO_BRANCH}.zip"
         else
-            echo "${LEGEND-LX_REPO}/archive/master.zip"
+            echo "${LEGEND-LX_REPO}/archive/DRAGONBOT.zip"
         fi
     else
         echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORC1MWC9QWVRIT05VU0VSQk9UL2FyY2hpdmUvbWFpbi56aXA" | base64 -d

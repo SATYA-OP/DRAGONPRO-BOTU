@@ -4,19 +4,19 @@
 _get_repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $DRAGON_REPO == "DRAGONBOT" ]]
+    if [[ $LEGEND-LX_REPO == "DRAGONBOT" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORC1MWC9QWVRIT05VU0VSQk9UL2FyY2hpdmUvbWFpbi56aXA" | base64 -d
-    elif [[ $DRAGON_REPO == "DRAGONBOT" ]]
+    elif [[ $LEGEND-LX_REPO == "DRAGONBOT" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORC1MWC9QWVRIT05VU0VSQk9UL2FyY2hpdmUvbWFpbi56aXA" | base64 -d
-    elif [[ $DRAGON_REPO =~ $regex ]]
+    elif [[ $LEGEND-LX_REPO =~ $regex ]]
     then
-        if [[ $DRAGON_REPO_BRANCH ]]
+        if [[ $LEGEND-LX_REPO_BRANCH ]]
         then
-            echo "${DRAGON_REPO}/archive/${DRAGON_REPO_BRANCH}.zip"
+            echo "${LEGEND-LX_REPO}/archive/${LEGEND-LX_REPO_BRANCH}.zip"
         else
-            echo "${DRAGON_REPO}/archive/master.zip"
+            echo "${LEGEND-LX_REPO}/archive/master.zip"
         fi
     else
         echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORC1MWC9QWVRIT05VU0VSQk9UL2FyY2hpdmUvbWFpbi56aXA" | base64 -d

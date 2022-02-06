@@ -1,1 +1,1 @@
-worker: bash DRAGONPRO-BOT9
+worker: bash DRAGONPRO-BOT

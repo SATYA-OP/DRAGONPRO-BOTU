@@ -25,13 +25,7 @@
     },
     "ALIVE_MSG": {
       "description": "Set Custom Alive Message When entering .alive Or .legend  Command.",
-      "value": "#OW𝖭ERSHIP🥱 #TUMHARI_PAR_KHOF ✌️ #HAMARA_HI_HOGA_OR_BEHANCHOD_GROUP_KOI_BHI_HO_RAJ  👑     #HAMARA_HOGA  🚩🚩
-#BEETE_BAAP_KO_KABHI_NA_SHIKHANA_FIGHITING 🔥🚩
-#ON_FIRE LEGENDX-Pro🚩
-@LegendHacker_IIN 🚩
-
-||🚩 धर्मो रक्षति रक्षित😈",
-      
+      "value": "",
       "required": false
     },
     "ABUSE": {

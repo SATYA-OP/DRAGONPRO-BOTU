@@ -1,5 +1,5 @@
 #Pro Userbot Start Clonning 💫💥
-FROM git clone https://github.com/LEGEND-LX/DRAGONUSERBOT-PRO.git /root/userbot
+FROM LEGEND-LX/DRAGONUSERBOT-PRO.git /root/userbot
 RUN git clone https://github.com/LEGEND-LX/DRAGONUSERBOT-PRO.git /root/userbot
 
 #working directory 

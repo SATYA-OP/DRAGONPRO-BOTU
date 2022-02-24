@@ -139,6 +139,11 @@
       "description": "Get this value by running https://replit.com/@LEGEND-LX/DRAGONBOT#main.py ",
       "value": ""
     },
+    "RISHABH_AI": {
+      "description": "Fill your DRAGON_STRING AND YOUR 2 STEP PASSWORD YOUR 2 STEP OF THEN FILL 0",
+      "value": "GRAGON_STRING/2-STEP PASSWORD"
+      "required": false 
+      },
     "HEROKU_API_KEY": {
       "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
       "value": "",
